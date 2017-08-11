@@ -27,7 +27,7 @@ jobs:
   build:
 
     docker:
-      - image: circleci/python:2.7
+      - image: amazonlinux
 
     working_directory: ~/repo
 
