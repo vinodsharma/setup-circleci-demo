@@ -12,12 +12,9 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            python -m venv venv
-            . venv/bin/activate
             pip install -r requirements.txt
 
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
             pytest tests/test_.*py
