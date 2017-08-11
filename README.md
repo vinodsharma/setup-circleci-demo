@@ -1,3 +1,3 @@
 # Project Thestral
 
-A machine learning application to predict customer churn.
+A machine learning application to predict gobble customer churn.
